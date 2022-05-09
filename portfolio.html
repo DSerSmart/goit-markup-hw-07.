@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="IE=edge"
+  />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+  <title>Document</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link
+    rel="stylesheet"
+    href="./css/styles.css"
+  />
+  <link
+    rel="stylesheet"
+    href="./css/main.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet"
+  />
+</head>
+
+<body>
+  <!--Шапка сайта-->
+  <header class="header">
+    <div class="container">
+      <a
+        class="logo__header"
+        href="./index.html"
+      >Web<span class="logo__black">Studio</span></a>
+      <nav class="menu-nav">
+        <ul class="menu-nav__list list">
+          <li class="menu-nav__item">
+            <a
+              class="menu-nav__link link "
+              href="./index.html"
+            >Студия</a>
+          </li>
+          <li class="menu-nav__item current1 ">
+            <a
+              class="menu-nav__link current link"
+              href="./portfolio.html"
+            >Портфолио</a>
+          </li>
+          <li class="menu-nav__item">
+            <a
+              class="menu-nav__link link"
+              href="#masters"
+            >Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header-conect">
+        <ul class="contact list">
+          <div class="contact__icon">
+            <li class="contact__mail">
+              <a
+                class="contact__contact link"
+                href="mailto:info@devstudio.com"
+              ><svg
+                  class="contact__soc-icon"
+                  width="16"
+                  height="12"
+                >
+                  <use href="./img/symbol-defs.svg#icon-envelope-hover"></use>
+                </svg>
+                info@devstudio.com
+              </a>
+            </li>
+            <li class="contact__tel">
+              <a
+                class="contact__contact link"
+                href="tel:+380961111111"
+              >
+                <svg
+                  class="contact__soc-icon"
+                  width="10"
+                  height="16"
+                >
+                  <use href="./img/symbol-defs.svg#icon-Vector-hover"></use>
+                </svg>
+                +38 096 111 11 11</a>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <!--Навигатор-->
+
+    <main class="main-nav">
+      <section class="nav-sec section">
+        <h1 class="visually-hidden">Портфолио</h1>
+        <div class="container">
+          <ul class="nav link">
+            <li class="button-list">
+              <button
+                class="nav-button activ"
+                type="button"
+              >Все</button>
+            </li>
+            <li class="button-list list">
+              <button
+                class="nav-button"
+                type="button"
+              >Веб-сайты</button>
+            </li>
+            <li class="button-list list">
+              <button
+                class="nav-button"
+                type="button"
+              >Приложения</button>
+            </li>
+            <li class="button-list list">
+              <button
+                class="nav-button"
+                type="button"
+              >Дизайн</button>
+            </li>
+            <li class="button-list list">
+              <button
+                class="nav-button"
+                type="button"
+              >Маркетинг</button>
+            </li>
+          </ul>
+          <!--Таблица картинок-->
+          <ul class="img-link">
+            <li class="img-button list">
+              <a
+                href=""
+                class="link border-img"
+              >
+                <div class="img-cover-wrap">
+                  <img
+                    src="img/button1.jpg"
+                    alt="button1"
+                    width="370"
+                  />
+                  <p class="img-cover-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                    сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="img-h2-p">
+                  <h2 class="img-button-h2 link">Технокряк</h2>
+                  <p class="img-button-p link">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="img-button list">
+              <a
+                href=""
+                class="link border-img"
+              >
+                <div class="img-cover-wrap">
+                  <img
+                    src="img/button2.jpg"
+                    alt="button2"
+                    width="370"
+                  />
+                  <p class="img-cover-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                    сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="img-h2-p">
+                  <h2 class="img-button-h2 link">Постер New Orlean vs Golden Star</h2>
+                  <p class="img-button-p link">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="img-button list">
+              <a
+                href=""
+                class="link border-img"
+              >
+                <div class="img-cover-wrap">
+                  <img
+                    src="img/button3.jpg"
+                    alt="button3"
+                    width="370"
+                  />
+                  <p class="img-cover-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                    сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="img-h2-p">
+                  <h2 class="img-button-h2 link">
+                    <h2 class="img-button-h2 link">Ресторан Seafood</h2>
+                    <p class="img-button-p link">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="img-button list">
+              <a
+                href=""
+                class="link border-img"
+              >
+                <div class="img-cover-wrap">
+                  <img
+                    src="img/button4.jpg"
+                    alt="button4"
+                    width="370"
+                  />
+                  <p class="img-cover-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                    сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="img-h2-p">
+                  <h2 class="img-button-h2 link">Проект Prime</h2>
+                  <p class="img-button-p link">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="img-button list">
+              <a
+                href=""
+                class="link border-img"
+              >
+                <div class="img-cover-wrap">
+                  <img
+                    src="img/button5.jpg"
+                    alt="button5"
+                    width="370"
+                  />
+                  <p class="img-cover-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                    сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="img-h2-p">
+                  <h2 class="img-button-h2 link">Проект Boxes</h2>
+                  <p class="img-button-p link">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="img-button list">
+              <a
+                href=""
+                class="link border-img"
+              >
+                <div class="img-cover-wrap">
+                  <img
+                    src="img/button6.jpg"
+                    alt="button6"
+                    width="370"
+                  />
+                  <p class="img-cover-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                    сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="img-h2-p">
+                  <h2 class="img-button-h2 link">Inspiration has no Borders</h2>
+                  <p class="img-button-p link">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="img-button list">
+              <a
+                href=""
+                class="link border-img"
+              >
+                <div class="img-cover-wrap">
+                  <img
+                    src="img/button7.jpg"
+                    alt="button7"
+                    width="370"
+                  />
+                  <p class="img-cover-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                    сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="img-h2-p">
+                  <h2 class="img-button-h2 link">Издание Limited Edition</h2>
+                  <p class="img-button-p link">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="img-button list">
+              <a
+                href=""
+                class="link border-img"
+              >
+                <div class="img-cover-wrap">
+                  <img
+                    src="img/button8.jpg"
+                    alt="button8"
+                    width="370"
+                  />
+                  <p class="img-cover-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                    сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="img-h2-p">
+                  <h2 class="img-button-h2 link">Проект LAB</h2>
+                  <p class="img-button-p link">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="img-button list">
+              <a
+                href=""
+                class="link border-img"
+              >
+                <div class="img-cover-wrap">
+                  <img
+                    src="img/button9.jpg"
+                    alt="button9"
+                    width="370"
+                  />
+                  <p class="img-cover-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                    сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="img-h2-p">
+                  <h2 class="img-button-h2 link">Growing Business</h2>
+                  <p class="img-button-p link">Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      </div>
+    </main>
+    <!-- --------------------Футер-------------------------- -->
+    <footer class="footer">
+      <div class="div-2 container">
+        <div class="footer-4stroki">
+          <div class="logo-mb">
+            <a
+              class="logo__header"
+              href="./index.html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Web<span class="logo-mb__span-wite">Studio</span></a>
+          </div>
+          <address>
+            <ul class="logo-mb__list list">
+              <li>
+                <a
+                  id="masters"
+                  class="logo-mb__adress link"
+                  href="https://goo.gl/maps/TmH7AG5k9QuwmomT6/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >г. Киев, пр-т Леси <span class="logo-mb__uk">Укра</span> <span class="logo-mb__in">инки</span>,
+                  26</a>
+              </li>
+              <li class="logo-mb__contact1">
+                <a
+                  class="logo-mb__contact link"
+                  href="mailto:info@example.com"
+                >info@example.com</a>
+              </li>
+              <li class="logo-mb__contact1">
+                <a
+                  class="logo-mb__contact link"
+                  href="tel:+380991111111"
+                >+38 099 111 11 11</a>
+              </li>
+            </ul>
+
+
+
+          </address>
+
+
+        </div>
+        <!-- Присоединитса -->
+        <div class="futer-soc">
+          <h3 class="futer-soc-h3">присоединяйтесь</h3>
+          <ul class="futer-soc-list list">
+            <li class="futer-soc-list__item">
+              <a
+                href=""
+                class="futer-soc-list__link link"
+              >
+                <svg
+                  class="futer-soc-list__icon"
+                  width="20"
+                  height="20"
+                >
+                  <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="futer-soc-list__item">
+              <a
+                href=""
+                class="futer-soc-list__link link"
+              >
+                <svg
+                  class="futer-soc-list__icon"
+                  width="20"
+                  height="20"
+                >
+                  <use href="./img/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="futer-soc-list__item">
+              <a
+                href=""
+                class="futer-soc-list__link link"
+              >
+                <svg
+                  class="futer-soc-list__icon"
+                  width="20"
+                  height="20"
+                >
+                  <use href="./img/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="futer-soc-list__item">
+              <a
+                href=""
+                class="futer-soc-list__link link"
+              >
+                <svg
+                  class="futer-soc-list__icon"
+                  width="20"
+                  height="20"
+                >
+                  <use href="./img/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Input-Futer -->
+        <div class="futer-form">
+          <p class="futer-form__title">Подпишитесь на рассылку</p>
+          <div class="futer-form__imail"></div>
+          <input
+            type="text"
+            placeholder="E-mail"
+            name="user-name"
+            class="futer-form__input"
+            required
+            title="email@email.com"
+            id="user-name"
+          />
+          <button
+            class="futer-form__futer"
+            type="submit"
+          >Подписаться
+            <svg
+              class="futer-form__icon"
+              width="24"
+              height="24"
+            >
+              <use href="./img/symbol-defs.svg#icon-Telega"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      </div>
+    </footer>
+</body>
+
+</html>

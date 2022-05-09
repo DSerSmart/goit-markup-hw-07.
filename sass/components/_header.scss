@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    height: 82px;
+    border-bottom: 1px solid var(--border-bottom);
+    .container {
+            display: flex;
+            align-items: center;
+            margin: 0 auto;
+        }
+}
+
+
+
+/* .header-container{
+  display: flex;
+  align-items: center;
+  margin: 0 auto; 
+ }*/

@@ -1,0 +1,16 @@
+.img-link {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-bottom: -30px;
+}
+
+.img-button {
+  flex-basis: calc(100% / 3 - 30px);
+  width: calc((100% - 90px) / 3);
+  margin-left: 30px;
+  margin-bottom: 30px;
+  &:hover .img-cover-text {
+    transform: translateY(0%);
+  }
+}

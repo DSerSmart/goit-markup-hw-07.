@@ -1,0 +1,28 @@
+.benefits-soc {
+    height: 120px;
+    background: #f5f4fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.benefits-list {
+    display: flex;
+    justify-content: center;
+    margin-left: -30px;
+    /* перекидует список в столбик если не влазит */
+    /* flex-wrap: wrap; */
+    /* елемент заполняет всё пустое пространство */
+    /* flex-grow: 1; */
+    /* запрещает сжиматса елементу */
+    /* flex-shrink:0 ; */
+    /* меняет место елементо в право, у кого больше число тот правее */
+    /* order: 1; */
+}
+
+.benefits-item {
+    flex-basis: calc(100% / 4 - 30px);
+    width: calc((100% - 90px) / 4);
+    margin-left: 30px;
+}

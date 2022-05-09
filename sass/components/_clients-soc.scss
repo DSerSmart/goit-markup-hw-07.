@@ -1,0 +1,36 @@
+.clients-soc-list {
+  display: flex;
+}
+
+.a-soc-link {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: var(--team-soc-icon);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    /* background-color: var(--accent-text-color); */
+    fill: var(--accent-text-color);
+    border: 1px solid var(--accent-text-color);
+  }
+}
+
+/* .team-soc-icon{
+  fill: var(--team-soc-icon);
+} */
+.clients-soc-item {
+  & + & {
+    margin-left: 30px;
+  }
+}
+/* отступ всем кроме первого  */
+// .clients-soc-item + .clients-soc-item {
+//   margin-left: 30px;
+// }

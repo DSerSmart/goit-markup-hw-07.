@@ -1,0 +1,51 @@
+.contact {
+  &__mail {
+    padding-right: 30px;
+    flex-shrink: 0;
+  }
+}
+
+.contact {
+  &__tel {
+    flex-shrink: 0;
+  }
+}
+
+.contact__soc-icon:hover .contact__contact,
+.contact__soc-icon:focus .contact__contact {
+  fill: var(--accent-text-color);
+}
+
+.link {
+  display: block;
+  &:hover,
+  &:focus {
+    color: var(--accent-text-color);
+  }
+}
+
+.contact {
+  &__icon {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+  }
+}
+
+.contact {
+  &__contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--primeri-text-color);
+    display: flex;
+    align-items: center;
+  }
+}
+
+.contact {
+  &__soc-icon {
+    fill: currentColor;
+    margin-right: 10px;
+  }
+}

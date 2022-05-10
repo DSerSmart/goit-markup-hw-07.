@@ -1,9 +1,12 @@
 @import './utils/variables';
+@import './utils/_placeholders';
+@import './utils/reset';
+@import './/utils/mixins';
 // ----------------------
 @import './components/header';
 @import './components/logo';
 @import './components/nav';
-@import './components/contact';  
+@import './components/contact';
 @import './components/hero';
 @import './components/hero-title';
 @import './components/hero-button';

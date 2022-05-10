@@ -1,0 +1,18 @@
+@mixin flexCenter($type: flex, $main-axis: center, $cross-axis: center) {
+  display: $type;
+  justify-content: $main-axis;
+  align-items: $cross-axis;
+}
+// .modal-check-text span {
+//   width: 16px;
+//   height: 15px;
+//   border: 2px solid #212121;
+//   border-radius: 2px;
+//   display: -webkit-box;
+//   display: -ms-flexbox;
+//   -webkit-box-pack: center;
+//   -ms-flex-pack: center;
+//   -webkit-box-align: center;
+//   -ms-flex-align: center;
+//   @include flexCenter();
+// }

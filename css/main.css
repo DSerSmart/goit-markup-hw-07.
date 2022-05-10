@@ -17,6 +17,11 @@
   --height-bt: 38px;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /*  box-sizing выравнивает элемент по ширине падинга и бордера */
 /* * { 
   box-sizing: border-box;
@@ -104,7 +109,7 @@ body {
   /* outline: 1px solid rgb(238, 246, 9); */
 }
 
-img {
+.img {
   display: block;
   max-width: 100%;
 }

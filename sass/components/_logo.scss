@@ -1,26 +1,24 @@
-.logo{
-    &__header {
-            display: flex;
-            align-items: center;
-            width: 145px;
-            height: 31px;
-            font-family: 'Raleway';
-            font-weight: 700;
-            font-size: 26px;
-            line-height: 1.9;
-            color: var(--accent-text-color);
-            text-decoration: none;
-        }
+.logo {
+  display: flex;
+  align-items: center;
+  width: 145px;
+  height: 31px;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.9;
+  color: var(--accent-text-color);
+  text-decoration: none;
 }
 
-.logo{
-    &__black {
-            color: #000000;
-        }
+.logo {
+  &__black {
+    color: #000000;
+  }
 }
 
-.logo-mb{
-    &__span-wite {
-            color: #ffffff;
-        }
+.logo-mb {
+  &__span-wite {
+    color: #ffffff;
+  }
 }

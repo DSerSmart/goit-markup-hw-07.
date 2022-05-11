@@ -9,11 +9,11 @@
   &__tel {
     flex-shrink: 0;
   }
-}
 
-.contact__soc-icon:hover .contact__contact,
-.contact__soc-icon:focus .contact__contact {
-  fill: var(--accent-text-color);
+  &__icon:hover .contact__contact,
+  &__icon:focus .contact__contact {
+    fill: var(--accent-text-color);
+  }
 }
 
 .link {
@@ -25,11 +25,6 @@
 }
 
 .contact {
-  &__icon {
-    display: flex;
-    box-sizing: border-box;
-    align-items: center;
-  }
 }
 
 .contact {
@@ -44,7 +39,7 @@
 }
 
 .contact {
-  &__soc-icon {
+  &__icon {
     fill: currentColor;
     margin-right: 10px;
   }

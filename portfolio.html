@@ -38,40 +38,40 @@
   <header class="header">
     <div class="container">
       <a
-        class="logo__header"
+        class="logo"
         href="./index.html"
       >Web<span class="logo__black">Studio</span></a>
-      <nav class="menu-nav">
-        <ul class="menu-nav__list list">
-          <li class="menu-nav__item">
+      <nav class="navigator">
+        <ul class="navigator__list list">
+          <li class="navigator__item current1 ">
             <a
-              class="menu-nav__link link "
+              class="navigator__link link current"
               href="./index.html"
             >Студия</a>
           </li>
-          <li class="menu-nav__item current1 ">
+          <li class="navigator__item">
             <a
-              class="menu-nav__link current link"
+              class="navigator__link link"
               href="./portfolio.html"
             >Портфолио</a>
           </li>
-          <li class="menu-nav__item">
+          <li class="navigator__item">
             <a
-              class="menu-nav__link link"
+              class="navigator__link link"
               href="#masters"
             >Контакты</a>
           </li>
         </ul>
       </nav>
       <div class="header-conect">
-        <ul class="contact list">
-          <div class="contact__icon">
+        <div class="contact__icon">
+          <ul class="contact list">
             <li class="contact__mail">
               <a
                 class="contact__contact link"
                 href="mailto:info@devstudio.com"
               ><svg
-                  class="contact__soc-icon"
+                  class="contact__icon"
                   width="16"
                   height="12"
                 >
@@ -86,7 +86,7 @@
                 href="tel:+380961111111"
               >
                 <svg
-                  class="contact__soc-icon"
+                  class="contact__icon"
                   width="10"
                   height="16"
                 >
@@ -94,12 +94,13 @@
                 </svg>
                 +38 096 111 11 11</a>
             </li>
-          </div>
+        </div>
         </ul>
       </div>
     </div>
   </header>
   <main class="main">
+    <!-- <main class="main"> -->
     <!--Навигатор-->
 
     <main class="main-nav">
@@ -198,9 +199,9 @@
                   </p>
                 </div>
                 <div class="img-h2-p">
-                  <h2 class="img-button-h2 link">
-                    <h2 class="img-button-h2 link">Ресторан Seafood</h2>
-                    <p class="img-button-p link">Приложение</p>
+                  <!-- <h2 class="img-button-h2 link"> -->
+                  <h2 class="img-button-h2 link">Ресторан Seafood</h2>
+                  <p class="img-button-p link">Приложение</p>
                 </div>
               </a>
             </li>
@@ -333,15 +334,15 @@
           </ul>
         </div>
       </section>
-      </div>
+      <!-- </div> -->
     </main>
-    <!-- --------------------Футер-------------------------- -->
+    <!-- Футер -->
     <footer class="footer">
       <div class="div-2 container">
-        <div class="footer-4stroki">
+        <div class="footer-left-list">
           <div class="logo-mb">
             <a
-              class="logo__header"
+              class="logo"
               href="./index.html"
               target="_blank"
               rel="noopener noreferrer"
@@ -372,24 +373,19 @@
                 >+38 099 111 11 11</a>
               </li>
             </ul>
-
-
-
           </address>
-
-
         </div>
         <!-- Присоединитса -->
-        <div class="futer-soc">
-          <h3 class="futer-soc-h3">присоединяйтесь</h3>
-          <ul class="futer-soc-list list">
-            <li class="futer-soc-list__item">
+        <div class="footer-soc">
+          <h3 class="footer-soc-h3">присоединяйтесь</h3>
+          <ul class="social list">
+            <li class="social__item">
               <a
                 href=""
-                class="futer-soc-list__link link"
+                class="social__link link"
               >
                 <svg
-                  class="futer-soc-list__icon"
+                  class="social__icon"
                   width="20"
                   height="20"
                 >
@@ -397,13 +393,13 @@
                 </svg>
               </a>
             </li>
-            <li class="futer-soc-list__item">
+            <li class="social__item">
               <a
                 href=""
-                class="futer-soc-list__link link"
+                class="social__link link"
               >
                 <svg
-                  class="futer-soc-list__icon"
+                  class="social__icon"
                   width="20"
                   height="20"
                 >
@@ -411,13 +407,13 @@
                 </svg>
               </a>
             </li>
-            <li class="futer-soc-list__item">
+            <li class="social__item">
               <a
                 href=""
-                class="futer-soc-list__link link"
+                class="social__link link"
               >
                 <svg
-                  class="futer-soc-list__icon"
+                  class="social__icon"
                   width="20"
                   height="20"
                 >
@@ -425,13 +421,13 @@
                 </svg>
               </a>
             </li>
-            <li class="futer-soc-list__item">
+            <li class="social__item">
               <a
                 href=""
-                class="futer-soc-list__link link"
+                class="social__link link"
               >
                 <svg
-                  class="futer-soc-list__icon"
+                  class="social__icon"
                   width="20"
                   height="20"
                 >
@@ -441,25 +437,25 @@
             </li>
           </ul>
         </div>
-        <!-- Input-Futer -->
-        <div class="futer-form">
-          <p class="futer-form__title">Подпишитесь на рассылку</p>
-          <div class="futer-form__imail"></div>
+        <!-- Input-Footer -->
+        <div class="footer-form">
+          <p class="footer-form__title">Подпишитесь на рассылку</p>
+          <div class="footer-form__imail"></div>
           <input
             type="text"
             placeholder="E-mail"
             name="user-name"
-            class="futer-form__input"
+            class="footer-form__input"
             required
             title="email@email.com"
             id="user-name"
           />
           <button
-            class="futer-form__futer"
+            class="footer-form__footer"
             type="submit"
           >Подписаться
             <svg
-              class="futer-form__icon"
+              class="footer-form__icon"
               width="24"
               height="24"
             >

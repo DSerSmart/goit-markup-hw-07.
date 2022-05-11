@@ -1,4 +1,4 @@
-.futer-form {
+.footer-form {
   &__title {
     margin-bottom: 20px;
     font-family: 'Roboto';
@@ -12,7 +12,7 @@
   }
 }
 
-.futer-form {
+.footer-form {
   &__input {
     width: 358px;
     height: 50px;
@@ -27,12 +27,12 @@
   }
 }
 
-.futer-form {
+.footer-form {
   padding-left: 93px;
 }
 
-.futer-form {
-  &__futer {
+.footer-form {
+  &__footer {
     position: relative;
     cursor: pointer;
     background: var(--accent-text-color);
@@ -53,7 +53,7 @@
   }
 }
 
-.futer-form {
+.footer-form {
   &__icon {
     position: absolute;
     right: 28px;
@@ -61,7 +61,7 @@
   }
 }
 
-.futer-form__futer {
+.footer-form__footer {
   position: relative;
   cursor: pointer;
   background: var(--accent-text-color);

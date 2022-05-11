@@ -1,36 +1,36 @@
-.menu-nav {
-    padding-left: 93px;
-    display: flex;
+.navigator {
+  padding-left: 93px;
+  display: flex;
 }
 
-.menu-nav{
-    &__list {
-            display: flex;
-            /* flex-wrap: nowrap; */
-        }
+.navigator {
+  &__list {
+    display: flex;
+    /* flex-wrap: nowrap; */
+  }
 }
 
 .header-conect {
-    /* display: flex; */
-    padding-left: 304px;
+  /* display: flex; */
+  padding-left: 304px;
 }
 
 .contact {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-.menu-nav{
-    &__item:not(:last-child) {
-            margin-right: 50px;
-        }
+.navigator {
+  &__item:not(:last-child) {
+    margin-right: 50px;
+  }
 }
-.menu-nav{
-    &__link {
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 1.14;
-            letter-spacing: 0.02em;
-            color: var(--title-text-color);
-        }
+.navigator {
+  &__link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+  }
 }

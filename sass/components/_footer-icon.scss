@@ -1,8 +1,8 @@
-.futer-soc {
+.footer-soc {
   padding-left: 70px;
 }
 
-.futer-soc-h3 {
+.footer-soc-h3 {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -14,16 +14,16 @@
   color: var(--primeri-wite-color);
 }
 
-.futer-soc-list {
+.social {
   display: flex;
   justify-content: flex-start;
 }
 
-.futer-soc-list__item + .futer-soc-list__item {
+.social__item + .social__item {
   margin-left: 10px;
 }
 
-.futer-soc-list {
+.social {
   &__link {
     width: 44px;
     height: 44px;

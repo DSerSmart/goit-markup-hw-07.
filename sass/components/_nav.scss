@@ -33,20 +33,20 @@
     letter-spacing: 0.02em;
     color: var(--title-text-color);
     position: relative;
-  }
-  &::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -33px;
-    width: 100%;
-    height: 4px;
-    background-color: #2196f3;
-    border-radius: 2px;
-    display: none;
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -33px;
+      width: 100%;
+      height: 4px;
+      background-color: #2196f3;
+      border-radius: 2px;
+      display: none;
+    }
   }
 }
-.navigator__link--current {
+.navigator__link--current:visited {
   color: var(--accent-text-color);
   &::after {
     display: block;

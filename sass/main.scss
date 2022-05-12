@@ -10,7 +10,7 @@
 @import './components/hero';
 @import './components/hero-title';
 @import './components/hero-button';
-@import './components/.benefits-soc';
+@import './components/benefits-soc';
 @import './components/visually-hidden';
 @import './components/benefits';
 @import './components/occupation-title';
@@ -36,3 +36,5 @@
 @import './components/modal-text';
 @import './components/chec-box';
 @import './components/butun-input';
+// --------------------------------------------
+//@prepros-append _.benefits-soc.scss

@@ -1,23 +1,31 @@
+// .contact__item:not(:last-child) {
+//   padding-right: 30px;
+// }
+//  {
+//   flex-shrink: 0;
+// }
+
 .contact {
-  &__mail {
+  &__item:not(:last-child) {
     padding-right: 30px;
     flex-shrink: 0;
   }
 }
 
-.contact {
-  &__tel {
-    flex-shrink: 0;
-  }
+// .contact {
+//   &__tel {
+//     flex-shrink: 0;
+//   }
+// }
 
-  &__icon:hover .contact__contact,
-  &__icon:focus .contact__contact {
-    fill: var(--accent-text-color);
-  }
+&__icon:hover .contact__contact,
+&__icon:focus .contact__contact {
+  fill: var(--accent-text-color);
 }
 
 .link {
   display: block;
+
   &:hover,
   &:focus {
     color: var(--accent-text-color);

@@ -46,7 +46,7 @@
     }
   }
 }
-.navigator__link--current:visited {
+.navigator__link--current {
   color: var(--accent-text-color);
   &::after {
     display: block;

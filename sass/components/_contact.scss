@@ -8,9 +8,10 @@
 .contact {
   &__item:not(:last-child) {
     padding-right: 30px;
-    flex-shrink: 0;
   }
-}
+  &__item{
+    flex-shrink: 0;
+}}
 
 // .contact {
 //   &__tel {
@@ -18,8 +19,8 @@
 //   }
 // }
 
-&__icon:hover .contact__contact,
-&__icon:focus .contact__contact {
+.contact__icon:hover .contact__contact,
+.contact__icon:focus .contact__contact {
   fill: var(--accent-text-color);
 }
 

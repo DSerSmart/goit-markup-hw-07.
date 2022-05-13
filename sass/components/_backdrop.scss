@@ -11,4 +11,10 @@
     .modal {
             transform: rotate(0) scale(1);
         }
-}
+} 
+
+.backdrop.is-hidden {
+    .modal {
+            transform: rotate(0) scale(1);
+        }
+} 
